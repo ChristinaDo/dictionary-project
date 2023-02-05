@@ -1,5 +1,5 @@
 .Dictionary section {
-  background-color: #c7d7cf;
+  background-color: white;
   padding: 30px;
   border-radius: 6px;
   margin: 20px 0;
@@ -13,12 +13,20 @@
   color: #333;
 }
 
-.Dictionary hint {
-  font-size: 9px;
+.Dictionary .hint {
+  font-size: 11px;
   margin-top: 5px;
 }
 
-.Dictionary h1 {
+.Dictionary .question {
   font-size: 18px;
+  font-weight: 500;
   margin-bottom: 20px;
+}
+
+.Dictionary h1 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
 }
