@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
+import Image from "./images/dictionary1.png";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -46,6 +47,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <img src={Image} alt="Dictionary" className="image-dictionary" />
         <h1>Dictionary</h1>
         <section>
           <div className="question">What word do you want to look up?</div>

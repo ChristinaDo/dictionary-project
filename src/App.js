@@ -9,7 +9,9 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="ocean" />
         </main>
-        <footer className="App-footer">Coded by Christina Doneus</footer>
+        <footer className="App-footer">
+          This project is coded with ❤️ by Christina Doneus
+        </footer>
       </div>
     </div>
   );

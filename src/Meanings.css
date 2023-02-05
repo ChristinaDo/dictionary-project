@@ -5,8 +5,13 @@
   text-transform: capitalize;
 }
 
+.Meaning .definition {
+  font-size: 14px;
+}
+
 .Meaning .example {
+  font-size: 14px;
   color: #70757a;
   font-style: italic;
-  margin-top: 10px;
+  margin-top: 5px;
 }
