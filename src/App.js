@@ -11,7 +11,11 @@ export default function App() {
         </main>
         <footer className="App-footer">
           This{" "}
-          <a href="https://github.com/ChristinaDo/dictionary-project">
+          <a
+            href="https://github.com/ChristinaDo/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced
           </a>{" "}
           project is coded with ❤️ by Christina Doneus
