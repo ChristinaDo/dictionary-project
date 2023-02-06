@@ -10,7 +10,11 @@ export default function App() {
           <Dictionary defaultKeyword="ocean" />
         </main>
         <footer className="App-footer">
-          This project is coded with ❤️ by Christina Doneus
+          This{" "}
+          <a href="https://github.com/ChristinaDo/dictionary-project">
+            open-sourced
+          </a>{" "}
+          project is coded with ❤️ by Christina Doneus
         </footer>
       </div>
     </div>
