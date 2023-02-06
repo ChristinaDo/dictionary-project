@@ -3,7 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
-import Image from "./images/dictionary1.png";
+import Image from "./images/dictionary.png";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
